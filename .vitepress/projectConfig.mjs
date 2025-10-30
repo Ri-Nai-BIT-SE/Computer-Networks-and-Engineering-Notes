@@ -1,6 +1,6 @@
-const title = '笔记'
-const description = '笔记'
-const projectName = 'Project-Name'
+const title = '计算机网络与工程笔记'
+const description = '计算机网络与工程笔记'
+const projectName = 'Computer-Networks-and-Engineering-Notes'
 const link = `https://github.com/Ri-Nai-BIT-SE/${projectName}`
 
 
