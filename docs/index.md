@@ -14,5 +14,9 @@ hero:
 features:
   - title: 第一章
     link: /第一章
+  - title: 第二章
+    link: /第二章
+  - title: 第三章
+    link: /第三章
 ---
 
