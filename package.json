@@ -12,6 +12,7 @@
     "generate-indexes": "node scripts/generate-indexes.mjs"
   },
   "dependencies": {
+    "@chinese-fonts/maple-mono-cn": "^2.0.0",
     "markdown-it-mathjax3": "^4.3.2"
   }
 }
