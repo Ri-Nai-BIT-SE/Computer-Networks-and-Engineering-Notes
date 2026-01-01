@@ -4,6 +4,11 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 import '@chinese-fonts/maple-mono-cn/dist/MapleMono-CN-SemiBold/result.css';
+import IPDatagramViewer from '../components/IPDatagramViewer.vue'
+import ICMPDiagram from '../components/ICMPDiagram.vue'
+import RIPSimulation from '../components/RIPSimulation.vue'
+import OSPFSimulation from '../components/OSPFSimulation.vue'
+import BGPSimulation from '../components/BGPSimulation.vue'
 
 export default {
   extends: DefaultTheme,
@@ -13,6 +18,11 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
+    // 注册全局组件
+    app.component('IPDatagramViewer', IPDatagramViewer)
+    app.component('ICMPDiagram', ICMPDiagram)
+    app.component('RIPSimulation', RIPSimulation)
+    app.component('OSPFSimulation', OSPFSimulation)
+    app.component('BGPSimulation', BGPSimulation)
   }
 } satisfies Theme
